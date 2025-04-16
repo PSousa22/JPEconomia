@@ -1,16 +1,16 @@
 JPEconomia
 
-  Objetivo Geral
+    Objetivo Geral
 
     Criar um ecossistema digital integrado que ofereça soluções acessíveis, automatizadas e estratégicas para clientes interessados em melhorar a saúde financeira de seus negócios, enquanto promove o engajamento contínuo por meio de recompensas em criptomoeda (JPEcoin).
 
-  Pilar 1
+    Pilar 1
 
     Marketplace - jp-economia.odoo.com
 
     Plataforma principal de apresentação institucional e comercial da JP Economia.
 
-  Funções principais
+    Funções principais
 
     Exibir informações institucionais (sobre a empresa, missão, equipe etc.).
 
@@ -20,7 +20,7 @@ JPEconomia
 
     Redirecionar clientes para a aplicação web (formulário) para iniciar o processo de análise financeira.
 
-  Tecnologia
+    Tecnologia
     
     Plataforma: Odoo (ERP/CRM completo)
   
@@ -28,13 +28,13 @@ JPEconomia
 
     Integração com API da aplicação web
 
-  Pilar 2: 
+    Pilar 2: 
     
     Aplicação Web - Formulário Inteligente
 
     Aplicação leve e amigável que coleta dados financeiros simples do cliente e retorna insights automáticos com base em indicadores econômicos.
 
-  Fluxo de uso
+    Fluxo de uso
 
     Cliente acessa a aplicação (link via o marketplace ou diretamente).
 
@@ -54,7 +54,7 @@ JPEconomia
 
       Oferta para aprofundar a análise comprando um serviço no marketplace.
 
-Benefícios
+    Benefícios
   
     Acesso gratuito e instantâneo a informações relevantes.
 
@@ -62,7 +62,7 @@ Benefícios
 
     Coleta de dados estratégicos para a empresa.
 
-Tecnologia
+    Tecnologia
 
     Front-end: React ou Vue.js
 
@@ -72,13 +72,13 @@ Tecnologia
 
     Segurança e LGPD compliance
 
-  Pilar 3: 
+    Pilar 3: 
   
     Criptomoeda JPEcoin
     
     Token digital exclusivo da JP Economia. Funciona como recompensa e moeda interna do ecossistema.
 
-  Como é usada
+    Como é usada
 
     Clientes recebem JPEcoin como bônus ao utilizar o formulário ou comprar no marketplace.
 
@@ -86,7 +86,7 @@ Tecnologia
 
     Potencial futura integração com carteiras digitais.
 
-  Características
+    Características
 
     Blockchain: Ethereum (ou solução com gas fees reduzidos, como Polygon)
 
@@ -94,7 +94,7 @@ Tecnologia
 
     Controle de emissão: limitado, com lastro simbólico em participação no ecossistema.
 
-  Regras de aquisição
+    Regras de aquisição
 
     Somente clientes registrados.
 
@@ -102,7 +102,7 @@ Tecnologia
 
     Também pode ser recebida como recompensa por ações dentro da plataforma (ex: completar perfil, indicar amigos, preencher formulário, etc.).
 
-  Integração entre os pilares
+     Integração entre os pilares
 
     O marketplace funciona como vitrine e hub de navegação.
 
