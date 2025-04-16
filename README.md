@@ -2,7 +2,9 @@ JPEconomia
 
     Objetivo Geral
 
-    Criar um ecossistema digital integrado que ofereça soluções acessíveis, automatizadas e estratégicas para clientes interessados em melhorar a saúde financeira de seus negócios, enquanto promove o engajamento contínuo por meio de recompensas em criptomoeda (JPEcoin).
+    Criar um ecossistema digital integrado que ofereça soluções acessíveis, automatizadas e estratégicas
+    para clientes interessados em melhorar a saúde financeira de seus negócios, enquanto promove o engajamento 
+    contínuo por meio de recompensas em criptomoeda (JPEcoin).
 
     Pilar 1
 
@@ -32,7 +34,8 @@ JPEconomia
     
     Aplicação Web - Formulário Inteligente
 
-    Aplicação leve e amigável que coleta dados financeiros simples do cliente e retorna insights automáticos com base em indicadores econômicos.
+    Aplicação leve e amigável que coleta dados financeiros simples do cliente e retorna insights 
+    automáticos com base em indicadores econômicos.
 
     Fluxo de uso
 
@@ -82,7 +85,8 @@ JPEconomia
 
     Clientes recebem JPEcoin como bônus ao utilizar o formulário ou comprar no marketplace.
 
-    Também podem comprar JPEcoin para uso interno (ex: descontos em relatórios, acesso a relatórios exclusivos, gamificação).
+    Também podem comprar JPEcoin para uso interno 
+    (ex: descontos em relatórios, acesso a relatórios exclusivos, gamificação).
 
     Potencial futura integração com carteiras digitais.
 
@@ -100,7 +104,8 @@ JPEconomia
 
     Pode ser adquirida diretamente na aplicação web via PIX/cartão.
 
-    Também pode ser recebida como recompensa por ações dentro da plataforma (ex: completar perfil, indicar amigos, preencher formulário, etc.).
+    Também pode ser recebida como recompensa por ações dentro da plataforma 
+    (ex: completar perfil, indicar amigos, preencher formulário, etc.).
 
      Integração entre os pilares
 
