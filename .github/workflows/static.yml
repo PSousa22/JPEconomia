@@ -1,43 +1,36 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="calculator">
+    <input type="text" id="display" disabled>
+    <div class="buttons">
+      <button class="button" onclick="appendToDisplay('1')">1</button>
+      <button class="button" onclick="appendToDisplay('2')">2</button>
+      <button class="button" onclick="appendToDisplay('3')">3</button>
+      <button class="button" onclick="appendToDisplay('+')">+</button>
 
-on:
-  # Runs on pushes targeting the default branch
-  push:
-    branches: ["main"]
+      <button class="button" onclick="appendToDisplay('4')">4</button>
+      <button class="button" onclick="appendToDisplay('5')">5</button>
+      <button class="button" onclick="appendToDisplay('6')">6</button>
+      <button class="button" onclick="appendToDisplay('-')">-</button>
 
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+      <button class="button" onclick="appendToDisplay('7')">7</button>
+      <button class="button" onclick="appendToDisplay('8')">8</button>
+      <button class="button" onclick="appendToDisplay('9')">9</button>
+      <button class="button" onclick="appendToDisplay('*')">*</button>
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
-jobs:
-  # Single deploy job since we're just deploying
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          # Upload entire repository
-          path: '.'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      <button class="button" onclick="appendToDisplay('0')">0</button>
+      <button class="button" onclick="clearDisplay()">C</button>
+      <button class="button" onclick="calculate()">=</button>
+      <button class="button" onclick="appendToDisplay('/')">/</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
